@@ -1,47 +1,22 @@
 <?php
-// Data produk - Tema Gadget & Smartphone
 $katalog = [
     [
-        "nama" => "Smartphone 5G 8/256GB",
-        "kategori" => "Handphone",
-        "harga" => 3499000,
-        "stok" => 5,
-        "gambar" => "📱"
+        "nama" => "Smartphone 5G 8/256GB", "kategori" => "Handphone", "harga" => 3499000, "stok" => 5, "gambar" => "📱"
     ],
     [
-        "nama" => "Tablet Android 10.5 Inch",
-        "kategori" => "Tablet",
-        "harga" => 2850000,
-        "stok" => 2,
-        "gambar" => "📲"
+        "nama" => "Tablet Android 10.5 Inch", "kategori" => "Tablet", "harga" => 2850000, "stok" => 2, "gambar" => "📲"
     ],
     [
-        "nama" => "Smartband Tracker",
-        "kategori" => "Wearable",
-        "harga" => 499000,
-        "stok" => 12,
-        "gambar" => "⌚"
+        "nama" => "Smartband Tracker", "kategori" => "Wearable", "harga" => 499000, "stok" => 12, "gambar" => "⌚"
     ],
     [
-        "nama" => "Powerbank Fast Charge 20000mAh",
-        "kategori" => "Aksesoris",
-        "harga" => 299000,
-        "stok" => 8,
-        "gambar" => "🔋"
+        "nama" => "Powerbank Fast Charge 20000mAh", "kategori" => "Aksesoris", "harga" => 299000, "stok" => 8, "gambar" => "🔋"
     ],
     [
-        "nama" => "Charger GaN 65W Dual Port",
-        "kategori" => "Aksesoris",
-        "harga" => 220000,
-        "stok" => 0,
-        "gambar" => "🔌"
+        "nama" => "Charger GaN 65W Dual Port", "kategori" => "Aksesoris", "harga" => 220000, "stok" => 0, "gambar" => "🔌"
     ],
     [
-        "nama" => "Stylus Pen",
-        "kategori" => "Aksesoris",
-        "harga" => 180000,
-        "stok" => 0,
-        "gambar" => "✏️"
+        "nama" => "Stylus Pen", "kategori" => "Aks.esoris", "harga" => 180000, "stok" => 0, "gambar" => "✏️"
     ]
 ];
 
@@ -50,17 +25,17 @@ $total = count($katalog);
 
 <!DOCTYPE html>
 <html lang="id">
-<head>
+<head>/
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cia Gadget Store</title>
+    <title>Cia Store</title>
     <link rel="stylesheet" href="J1.css">
 </head>
 <body>
 
     <header>
         <nav class="navbar">
-            <div class="brand">Cia Gadget</div>
+            <div class="brand">Cia Store</div>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#products">Katalog</a></li>
@@ -71,7 +46,7 @@ $total = count($katalog);
 
     <section class="hero-wrapper">
         <div class="hero-box">
-            <span>CIA GADGET STORE</span>
+            <span>CIA STORE</span>
             <h1>Pusat Gadget & Aksesoris</h1>
             <p>Pilihan smartphone, tablet, dan aksesoris harian lengkap untuk kebutuhanmu.</p>
             <a href="#products" class="btn-lihat">Lihat Katalog</a>
